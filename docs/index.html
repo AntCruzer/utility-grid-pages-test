@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UtilityGrid Settings</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+    <main>
+        <h1>UtilityGrid Settings</h1>
+
+        <p>Choose how temperature is displayed on the watchface.</p>
+
+        <form id="settings-form">                   <!-- form id -->
+            <fieldset>
+                <legend>Temperature unit</legend>
+
+                <label for="unit-celsius">          <!-- celsiuis unit id -->
+                    <span>Celsius (°C)</span>
+
+                    <input
+                        id="unit-celsius"
+                        name="temperatureUnit"
+                        type="radio"
+                        value="celsius"
+                    >
+                </label>
+
+                <label for="unit-fahrenheit">        <!-- fahrenheit unit id -->
+                    <span>Fahrenheit (°F)</span>
+
+                    <input
+                        id="unit-fahrenheit"
+                        name="temperatureUnit"
+                        type="radio"
+                        value="fahrenheit"
+                    >
+                </label>
+            </fieldset>
+
+            <button type="submit">
+                Save Settings
+            </button>
+        </form>
+    </main>
+
+    <!-- JS configuration file -->
+    <script src="config.js"></script>
+</body>
+</html>
+

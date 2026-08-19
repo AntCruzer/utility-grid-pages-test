@@ -1,0 +1,39 @@
+{
+  "name": "utility-grid-with-pages",
+  "author": "MakeAwesomeHappen",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "utility-grid-with-pages",
+    "uuid": "1455dd8f-bfd6-40b5-8606-a479ecb58364",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite",
+      "emery",
+      "flint",
+      "gabbro"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "capabilities": [
+      "configurable",
+      "location",
+      "health"
+    ],
+    "messageKeys": [
+      "TemperatureCelsius",
+      "RequestWeather",
+      "UseCelsius"
+    ],
+    "resources": {
+      "media": []
+    }
+  }
+}
