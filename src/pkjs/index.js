@@ -3,7 +3,7 @@
     and retains the data with persisted storage */
 
 
-var SETTINGS_URL = 'github_pages_link_goes_here';
+var SETTINGS_URL = 'https://antcruzer.github.io/utility-grid-pages-test/';
 
 var DEFAULT_USE_CELSIUS = true;
 
